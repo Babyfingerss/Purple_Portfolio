@@ -221,23 +221,6 @@
 //     }
 //   });
 
-//   // ========== Light/Dark Mode ==========
-//   const themeToggle = document.querySelector('.theme-toggle');
-
-//   function setTheme(isDark) {
-//     document.documentElement.classList.toggle('dark', isDark);
-//     localStorage.setItem('theme', isDark ? 'dark' : 'light');
-//     themeToggle.textContent = isDark ? '☀️' : '🌙'; // Update button icon
-//   }
-
-//   // Load saved theme or match system preference
-//   const savedTheme = localStorage.getItem('theme');
-//   const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-//   setTheme(savedTheme ? savedTheme === 'dark' : prefersDark);
-
-//   themeToggle.addEventListener('click', () => {
-//     setTheme(!document.documentElement.classList.contains('dark'));
-//   });
 // });
 
 const hamburger = document.getElementById('hamburger');
@@ -247,3 +230,4 @@ hamburger.addEventListener('click', () => {
   navMenu.classList.toggle('active');
   hamburger.classList.toggle('open');
 });
+
