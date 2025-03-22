@@ -3,9 +3,15 @@
   <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Florence Umoinyang - UI/UX Design Engineer</title>
+  <title>Florence Umoinyang - Product Design Engineer</title>
   <link rel="stylesheet" href="styles.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="icon" href="favicon.png" type="png">
 </head>
 <body>
   <!-- Navigation -->
@@ -33,10 +39,10 @@
           </svg>
         </button>
      
-        <button class="mobile-menu-btn" aria-label="Toggle mobile menu">
-          <span></span>
-          <span></span>
-          <span></span>
+        <button class="mobile-menu-btn" id="hamburger" aria-label="Toggle mobile menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
           </button>
       </nav>
     </div>
@@ -48,12 +54,12 @@
       <div class="container">
         <div class="hero-content">
           <div class="profile-image">
-            <img src="https://assets.onecompiler.app/43bk2me66/43bk5x5wn/1000003436.jpg" alt="">
+            <img src="https://assets.onecompiler.app/43bk2me66/43bk5x5wn/me.jpg" alt="">
           </div>
           <div class="hero-text">
-            <h1><span class="badge">UI/UX Design Engineer</span></h1>
+            <h1><span class="badge">Product Design Engineer</span></h1>
             <h1>Florence Umoinyang</h1>
-            <p>I design and build digital experiences with a focus on user-centered design, accessibility, and beautiful aesthetics.</p>
+            <p>I design scalable, user-centered digital products that enhance usability, accelerate time-to-market, and reduce development overhead by up to 30% for early-stage startups.</p>
             <div class="hero-buttons">
               <a href="#work" class="btn btn-primary">View My Work</a>
               <a href="#contact" class="btn btn-secondary">Get In Touch</a>
@@ -76,7 +82,7 @@
         
         <div class="projects-grid">
           <!-- Project 1 -->
-          <div class="project-card" data-url="https://example.com/project1">
+          <div class="project-card" data-url="https://www.behance.net/gallery/220578207/PedMonie-Case-Study?tracking_source=search_projects|PedMonie&l=0">
             <div class="project-image">
               <img src="https://assets.onecompiler.app/43bk2me66/43bk5x5wn/1000004326.jpg" alt="Mobile Banking App" />
               <div class="image-overlay"></div>
@@ -85,7 +91,7 @@
             <div class="project-content">
               <h3 class="project-title">Fintech Payment Gateway</h3>
               <p class="project-description">
-                A clean and modern mobile banking application focused on simplicity and user experience.
+               A scalable payment platform designed to help businesses accept, manage, and track digital transactions effortlessly.
               </p>
               
               <div class="project-tags">
@@ -111,9 +117,9 @@
             </div>
             
             <div class="project-content">
-              <h3 class="project-title">E-commerce Website Redesign</h3>
+              <h3 class="project-title">E-commerce Website - The Dot </h3>
               <p class="project-description">
-                Complete redesign of an e-commerce platform with focus on conversion optimization.
+                A minimalist, user-friendly home décor platform focused on aesthetic appeal, smooth navigation, and effortless shopping.
               </p>
               
               <div class="project-tags">
@@ -139,9 +145,9 @@
             </div>
             
             <div class="project-content">
-              <h3 class="project-title">Healthcare Portal</h3>
+              <h3 class="project-title">Healthcare Donor Dashboard</h3>
               <p class="project-description">
-                Patient-focused healthcare portal for managing appointments and medical records.
+                A real-time blood inventory management and donor engagement platform designed to optimize blood availability, streamline donations, and support critical healthcare decisions.
               </p>
               
               <div class="project-tags">
@@ -167,9 +173,9 @@
             </div>
             
             <div class="project-content">
-              <h3 class="project-title">Smart Home Control App</h3>
+              <h3 class="project-title">Landing Page Redesign</h3>
               <p class="project-description">
-                IoT control interface for managing smart home devices with intuitive interactions.
+                A modern, visually striking landing page redesign focused on improved user engagement, product storytelling, and optimized conversion flow for a premium nutrition brand.
               </p>
               
               <div class="project-tags">
@@ -205,7 +211,7 @@
             <div class="skill-bars">
               <div class="skill-item">
                 <div class="skill-info">
-                  <span>Wireframing</span>
+                  <span>Mobile Design</span>
                   <span>95%</span>
                 </div>
                 <div class="skill-bar">
@@ -269,22 +275,31 @@
               <div class="skill-item">
                 <div class="skill-info">
                   <span>HTML/CSS</span>
-                  <span>85%</span>
+                  <span>90%</span>
                 </div>
                 <div class="skill-bar">
-                  <div class="skill-progress" style="width: 85%"></div>
+                  <div class="skill-progress" style="width: 90%"></div>
                 </div>
               </div>
               <div class="skill-item">
                 <div class="skill-info">
                   <span>Adobe XD</span>
+                <span>85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 85%"></div>
+                  </div>
+                </div>
+                  <div class="skill-item">
+                <div class="skill-info">
+                  <span>Illustrator</span>
                   <span>80%</span>
                 </div>
                 <div class="skill-bar">
                   <div class="skill-progress" style="width: 80%"></div>
-                  
                 </div>
               </div>
+              
             </div>
           </div>
           
@@ -296,7 +311,7 @@
       <div class="container">
         <div class="about-content">
           <div class="about-text">
-            <span class="badge">About Me</span>
+            <span class="badge" id="about">About Me</span>
             <h2 class="heading">I design products that delight and inspire people.</h2>
             <p>I'm Florence Umoinyang, a passionate UI/UX design engineer with a keen eye for detail and a commitment to creating intuitive, user-centered digital experiences.</p>
             <p>With expertise in both design and development, I bridge the gap between aesthetics and functionality, ensuring that beautiful designs translate into efficient, accessible implementations.</p>
@@ -391,13 +406,16 @@
                   <path d="M9 18c-4.51 2-5-2-7-2"></path>
                 </svg>
               </a>
-              <a href="#" class="social-link">
+              <a href="https://www.behance.net/florenceakai" class="social-link" target="_blank">
+                <i class="fab fa-behance"></i>
+              </a>
+              <!-- <a href="#" class="social-link">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                   <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
                   <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
                   <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
                 </svg>
-                </a>
+                </a> -->
             </div>
           </div>
 
