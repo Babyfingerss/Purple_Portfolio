@@ -1,6 +1,6 @@
 /*Base Styles */
 
-  :root {
+:root {
     --background: #0a0a0a;
     --foreground: #fafafa;
     --primary: #c891f1;
@@ -11,9 +11,8 @@
     --muted-foreground: #a1a1aa;
     --border: #27272a;
   }
-}
 
-{
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -89,13 +88,12 @@ text-decoration: none;
 }
 
 /* Hamburger Button */
-.mobile-menu-btn {
+#hamburger {
   display: none;
   flex-direction: column;
   cursor: pointer;
   background: none;
   border: none;
-  gap: 0rem;
 }
 
 .bar {
@@ -105,6 +103,8 @@ text-decoration: none;
   margin: 4px 0;
   transition: 0.4s;
 }
+
+
 
 /* Hero Section */
 .hero-section {
@@ -297,8 +297,8 @@ text-decoration: none;
 }
 
 .project-content {
-  padding: 1.5rem 
-    padding: 1.5rem 2rem;
+  /* padding: 1.5rem  */
+  padding: 1.5rem 2rem;
 }
 
 .project-title {
@@ -645,18 +645,14 @@ text-decoration: none;
     left: 0;
   }
 
-  .nav-links.active {
+  .nav-links.show {
     display: flex;
-  }
-  
-  .hero-section{
-    padding-top: 8rem;
   }
 
   #hamburger {
     display: flex;
   }
-
+  
   .mobile-menu-btn {
     display: block;
   }
