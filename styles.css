@@ -644,6 +644,9 @@ text-decoration: none;
     top: 70px;
     left: 0;
   }
+   .hero-section{
+    padding-top: 8rem;
+  }
 
   .nav-links.show {
     display: flex;
